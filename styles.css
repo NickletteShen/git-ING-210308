@@ -1,0 +1,72 @@
+body{
+    background: rgb(66, 66, 66);
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+header{
+    background-image: url("/images/backgroundpink.png");
+    height: 150px;
+    padding:20px;
+    font-size: 20px;
+    text-align: center;
+}
+/* HEADER */
+header nav{
+    margin-top: 80px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+header .logo {
+    background-image: url("/images/drinkslogo.png");
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* 上移一定要先调相对位置 */
+    position: relative;
+    top:-70px;
+    display: inline-block;
+    width: 150px;
+    /* 图片高度150 上移70 */
+    height: 150px;
+    text-indent: -9999999999px;
+}
+
+/* SECTION */
+.onesection{
+    background: rgb(228, 207, 202);
+    height: 200px;
+    padding: 20px;
+    /* text-align: center; */
+}
+.onesection img{
+    width: 400px;
+    padding: 0px;
+    position: relative;
+    vertical-align: middle;
+}
+.twosection{
+    background: rgb(190, 175, 171);
+    height: 200px;
+    padding: 20px;
+    display: flex;
+}
+div{
+    display: inline-block;
+    width: 50px; height: 20px;
+    background: pink;
+    margin: auto;
+}
+footer{
+    background: rgb(194, 174, 168);
+    height: 50px;
+}
