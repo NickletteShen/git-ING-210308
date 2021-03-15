@@ -13,7 +13,7 @@
 坑（1）   fatal: couldn't find remote ref master
 因为在远程仓库有ReadMe文件，而本地没有，造成本地和远程的不同步
 因为使用了旧命令master，master现在被认为是有种族歧视的，github将其换成了main
-https://github.com/NickletteShen/git-ING-210314/blob/master/images/readmeImg/1.png  
+![image]（https://github.com/NickletteShen/git-ING-210314/blob/master/images/readmeImg/1.png）
 会出现：
 https://github.com/NickletteShen/git-ING-210314/blob/master/images/readmeImg/2.png  
 请输入提交消息来解释为什么这种合并是必要的
